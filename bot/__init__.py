@@ -441,16 +441,3 @@ updater = tg.Updater(token=BOT_TOKEN)
 bot = updater.bot
 dispatcher = updater.dispatcher
 
-
-
-
-if Var.OKTETO:
-    try:
-        from apscheduler.schedulers.asyncio import AsyncIOScheduler
-        sched = AsyncIOScheduler()
-        LOGGER.info("Okteto: Setup Done!")
-        sched.add_job(restart, "interval", hours=24)
-        sched.start()
-    except ImportError:
-        LOGGER.info("'apscheduler' not installed!\nThere may be a error with your installation.")
-    
