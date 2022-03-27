@@ -4,7 +4,8 @@ services:
     build: .
     environment:
       BOT_TOKEN: $BOT_TOKEN
-      INDEX_URL: https://mirror-bot.rootedcyber.workers.dev/0:
+      BUTTON_THREE_URL: https://mirror-bot.rootedcyber.workers.dev/0:
+      BUTTON_THREE_NAME: Open Index link
       GDRIVE_FOLDER_ID: 0AEJNKgq4nkXXUk9PVA
       DOWNLOAD_DIR: /home/username/mirror-bot/downloads
       TELEGRAM_API: 3704772  # defaults to None
