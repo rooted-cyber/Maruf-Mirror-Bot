@@ -1,6 +1,6 @@
 version: "3.9"
 services:
-  worker:
+  maruf:
     build: .
     environment:
       BOT_TOKEN: $BOT_TOKEN
@@ -16,3 +16,4 @@ services:
       PHPSESSID: $PHPSESSID
       CRYPT: $CRYPT
       INDEX_URL: $INDEX_URL
+
