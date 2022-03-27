@@ -8,7 +8,7 @@ services:
       DOWNLOAD_DIR: /home/username/mirror-bot/downloads
       TELEGRAM_API: 3704772  # defaults to None
       TELEGRAM_HASH: b8e50a035abb851c0dd424e14cac4c06  # defaults to None
-      OWNER_ID: 500774612  # defaults to None
+      OWNER_ID: $OWNER_ID  # defaults to None
       DOWNLOAD_STATUS_UPDATE_INTERVAL: 5  # defaults to None
       AUTO_DELETE_MESSAGE_DURATION: 20
       IS_TEAM_DRIVE: False
