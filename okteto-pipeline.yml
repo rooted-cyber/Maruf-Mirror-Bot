@@ -4,16 +4,16 @@ services:
     build: .
     environment:
       BOT_TOKEN: $BOT_TOKEN
-      GDRIVE_FOLDER_ID: $GDRIVE_FOLDER_ID
-      DOWNLOAD_DIR: $DOWNLOAD_DIR
-      TELEGRAM_API: $TELEGRAM_API  # defaults to None
-      TELEGRAM_HASH: $TELEGRAM_HASH  # defaults to None
-      OWNER_ID: $OWNER_ID  # defaults to None
-      DOWNLOAD_STATUS_UPDATE_INTERVAL: $DOWNLOAD_STATUS_UPDATE_INTERVAL  # defaults to None
-      AUTO_DELETE_MESSAGE_DURATION: $AUTO_DELETE_MESSAGE_DURATION
-      IS_TEAM_DRIVE: $IS_TEAM_DRIVE
-      TOKEN_PICKLE_URL: $TOKEN_PICKLE_URL
-      PHPSESSID: $PHPSESSID
-      CRYPT: $CRYPT
-      INDEX_URL: $INDEX_URL
+      GDRIVE_FOLDER_ID: 0AEJNKgq4nkXXUk9PVA
+      DOWNLOAD_DIR: /home/username/mirror-bot/downloads
+      TELEGRAM_API: 3704772  # defaults to None
+      TELEGRAM_HASH: b8e50a035abb851c0dd424e14cac4c06  # defaults to None
+      OWNER_ID: 500774612  # defaults to None
+      DOWNLOAD_STATUS_UPDATE_INTERVAL: 5  # defaults to None
+      AUTO_DELETE_MESSAGE_DURATION: 20
+      IS_TEAM_DRIVE: False
+      TOKEN_PICKLE_URL: https://github.com/rooted-cyber/terminal-bot/raw/main/token.pickle
+      PHPSESSID: osj632m5slu25l4vbtdidprou3
+      CRYPT: L1pnRmxHclF4S2JzMkhHTmV0YXFQNDdtdXM5UlVueDFOT1NxYzVmUzhvUT0%3D"
+
 
