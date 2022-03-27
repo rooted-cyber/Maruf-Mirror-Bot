@@ -14,9 +14,9 @@ services:
       IS_TEAM_DRIVE: False
       TOKEN_PICKLE_URL: https://github.com/rooted-cyber/terminal-bot/raw/main/token.pickle
       PHPSESSID: osj632m5slu25l4vbtdidprou3
-      CRYPT: L1pnRmxHclF4S2JzMkhHTmV0YXFQNDdtdXM5UlVueDFOT1NxYzVmUzhvUT0%3D"
-      INDEX_URL: $INDEX_URL
-      MEGA_PASSWORD: $MEGA_PASSWORD
-      MEGA_USERNAME: $MEGA_USERNAME
-      MEGA_KEY: $MEGA_KEY
+      CRYPT: L1pnRmxHclF4S2JzMkhHTmV0YXFQNDdtdXM5UlVueDFOT1NxYzVmUzhvUT0%3D
+      INDEX_URL: https://mirror-bot.rootedcyber.workers.dev/0:
+      MEGA_PASSWORD: Maruf123###
+      MEGA_USERNAME: rootedcyber6@gmail.com
+      MEGA_KEY: vok1Ca6I
 
