@@ -4,7 +4,7 @@ services:
     build: .
     environment:
       BOT_TOKEN: $BOT_TOKEN
-      BUTTON_THREE_URL: https://mirror-bot.rootedcyber.workers.dev/0:
+      BUTTON_THREE_UR: https://mirror-bot.rootedcyber.workers.dev/0:
       BUTTON_THREE_NAME: Open Index link
       GDRIVE_FOLDER_ID: 0AEJNKgq4nkXXUk9PVA
       DOWNLOAD_DIR: /home/username/mirror-bot/downloads
